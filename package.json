@@ -1,0 +1,17 @@
+{
+  "name": "bot-pdf-whatsapp-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pdf-parse": "^1.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.17.2",
+    "@google/generative-ai": "^0.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
